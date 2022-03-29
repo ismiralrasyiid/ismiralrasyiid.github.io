@@ -565,6 +565,27 @@ h3.my-profession{
     overflow: hidden;
     cursor: pointer;
 }
+.portfolio .portfolio-item-inner .portfolio-img{
+    position: relative;
+}
+.portfolio .portfolio-item-inner .portfolio-img .hover-cover{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+.portfolio .portfolio-item-inner a:hover .portfolio-img .hover-cover{
+    visibility: visible;
+}
 .portfolio .portfolio-item-inner .portfolio-img img{
     width: 100%;
     display: block;
