@@ -799,3 +799,9 @@ h3.my-profession{
     }
 }
 /* ========== RESPONSIVE END ========== */
+/* Temporary */
+.timeline-text,
+.service-item p{
+    display: none;
+}
+/* Temporary */
